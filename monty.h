@@ -66,7 +66,7 @@ int _isdigit(char *str);
 void free_dataStructure(void);
 void free_fp_line(void);
 void dropnl(char *src);
-void exe_operation(char *operation, stack_t **head, unsigned int line_number);
+void exe_operation(char *operation, stack_t **head, unsigned int ln);
 
 /* extern or global variable */
 
