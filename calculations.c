@@ -78,7 +78,7 @@ void do_div(stack_t **stack, unsigned int ln)
 }
 
 /**
- * mul - multiplies elements of a stack
+ * _mul - multiplies elements of a stack
  * @stack: pointer to top stack
  * @ln: error line number
  * Return: nothing
@@ -101,7 +101,7 @@ void _mul(stack_t **stack, unsigned int ln)
 }
 
 /**
- * mod - retrives the remainder of a division
+ * _mod - retrives the remainder of a division
  * @stack: pointer to top stack
  * @ln: error line number
  * Return: nothing
