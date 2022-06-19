@@ -19,7 +19,7 @@ void exe_operation(char *op_command, stack_t **head, unsigned int ln)
 		{"add", add},
 		{"nop", nop},
 		{"sub", sub},
-		{"div", div},
+		{"div", do_div},
 		{"mul", mul},
 		{"mod", mod},
 		{"pchar", _pchar},
