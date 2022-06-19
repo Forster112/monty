@@ -50,12 +50,12 @@ void sub(stack_t **stack, unsigned int ln)
 }
 
 /**
- * div - divides elements of a stack
+ * do_div - divides elements of a stack
  * @stack: pointer to top of stack
  * @ln: error line number
  * Return: nothing
  */
-void div(stack_t **stack, unsigned int ln)
+void do_div(stack_t **stack, unsigned int ln)
 {
 	int a, b, divide;
 
