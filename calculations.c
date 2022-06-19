@@ -83,7 +83,7 @@ void do_div(stack_t **stack, unsigned int ln)
  * @ln: error line number
  * Return: nothing
  */
-void mul(stack_t **stack, unsigned int ln)
+void _mul(stack_t **stack, unsigned int ln)
 {
 	int a, b, times;
 
@@ -106,7 +106,7 @@ void mul(stack_t **stack, unsigned int ln)
  * @ln: error line number
  * Return: nothing
  */
-void mod(stack_t **stack, unsigned int ln)
+void _mod(stack_t **stack, unsigned int ln)
 {
 	int a, b, modulo;
 
