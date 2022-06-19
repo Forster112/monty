@@ -55,8 +55,8 @@ void parse(char *fileName, stack_t **head);
 void nop(stack_t **stack, unsigned int ln);
 void sub(stack_t **stack, unsigned int ln);
 void do_div(stack_t **stack, unsigned int ln)
-void mul(stack_t **stack, unsigned int ln);
-void mod(stack_t **stack, unsigned int ln);
+void _mul(stack_t **stack, unsigned int ln);
+void _mod(stack_t **stack, unsigned int ln);
 void dropnl(char *src);
 void _pstr(stack_t **stack, unsigned int ln);
 void _rotr(stack_t **stack, unsigned int ln);
