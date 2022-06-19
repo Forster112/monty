@@ -54,7 +54,7 @@ void add(stack_t **stack, unsigned int ln);
 void parse(char *fileName, stack_t **head);
 void nop(stack_t **stack, unsigned int ln);
 void sub(stack_t **stack, unsigned int ln);
-void div(stack_t **stack, unsigned int ln)
+void do_div(stack_t **stack, unsigned int ln)
 void mul(stack_t **stack, unsigned int ln);
 void mod(stack_t **stack, unsigned int ln);
 void dropnl(char *src);
