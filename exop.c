@@ -33,7 +33,7 @@ void exe_operation(char *op_command, stack_t **head, unsigned int ln)
 	{
 		if (strcmp(op_command, all_ops[i].opcode) == 0)
 		{
-			all_ops[i].f(head, line_number);
+			all_ops[i].f(head, ln);
 			return;
 		}
 	}
